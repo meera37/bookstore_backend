@@ -190,9 +190,9 @@ exports.makepaymentController = async (req, res) => {
             //make payment
             mode: "payment",
             //if the payment is successful,url to be shown
-            success_url: 'http://localhost:5173/payment-success',
+            success_url: 'https://book-store-six-zeta.vercel.app/payment-success',
             //if the payment is failed,url to be shown
-            cancel_url: 'http://localhost:5173/payment-error'
+            cancel_url: 'https://book-store-six-zeta.vercel.app/payment-error'
         });
         console.log(session);
 
